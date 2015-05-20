@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Route Number : " />
+        <TextView
+        android:id="@+id/RouteNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    
+    
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Id Number : " />
+    <TextView
+        android:id="@+id/BusId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source Time : " />
+ <TextView
+        android:id="@+id/FromTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    
+    
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        <TextView
+    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination Time : " />
+    
+        <TextView
+        android:id="@+id/ToTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    
+        
+    </LinearLayout>
+    
+        
+
+</LinearLayout>
